@@ -4,6 +4,12 @@ Auth SDK thực hiện extend guard, custom UserProvider, cho phép thực hiệ
 
 Thư viện chỉ dùng cho Laravel.
 
+### Cách cài đặt thư viện
+
+```sh
+composer require sangth/auth-sdk:@dev
+```
+
 ## Cách dùng
 
 ### Cấu hình `config/auth.php`
