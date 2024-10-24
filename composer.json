@@ -1,0 +1,24 @@
+{
+    "name": "sangth/auth-sdk",
+    "description": "Auth SDK",
+    "type": "library",
+    "require": {
+        "firebase/php-jwt": "6.10.1",
+        "illuminate/http": "11.29.0",
+        "illuminate/auth": "11.29.0",
+        "guzzlehttp/guzzle": "7.9.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sangth\\Auth\\Sdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sangth",
+            "email": "sangtranhuu1996@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
